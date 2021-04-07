@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Gallery</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item" data-name="Flowers">Flowers</span>
+                <span class="item" data-name="Landscape">Landscape</span>
+                <span class="item" data-name="Plants">Plants</span>
+                <span class="item" data-name="Sky">Sky</span>
+                <span class="item" data-name="Animals">Animals</span>
+            </div>
+        </nav>
+        <!-- filter images -->
+        <div class="gallery">
+            <div class="image" data-name="Flowers"><span><img src="images/flower.jpg"></span></div>
+            <div class="image" data-name="Plants"><span><img src="images/plant1.jpg"></span></div>
+            <div class="image" data-name="Flowers"><span><img src="images/flower1.jpg"></span></div>
+            <div class="image" data-name="Flowers"><span><img src="images/flower2.jpg"></span></div>
+            <div class="image" data-name="Sky"><span><img src="images/sky1.jpg"></span></div>
+            <div class="image" data-name="Animals"><span><img src="images/animal1.jpg"></span></div>
+            <div class="image" data-name="Landscape"><span><img src="images/landscape1.jpg"></span></div>
+            <div class="image" data-name="Landscape"><span><img src="images/landscape3.jpg"></span></div> 
+        </div>
+    </div>
+
+<!-- full screen view -->
+
+<div class="preview-box">
+    <div class="details">
+        <span class="title">Image Category: <p></p></span>
+        <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box">
+        <img src="" alt="">
+    </div>
+</div>
+<div class="shadow"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
