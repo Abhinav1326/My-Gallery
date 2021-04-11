@@ -10,15 +10,14 @@
     <div class="hero">
         <div class="navbar">
             <img src="Gallery/logo3.png" alt="logo">
-            <button type="button">Sign Up</button>
+            <button type="button" onClick="air()" id="sign-btn">Sign Up</button>
         </div>
         <div class="content">
-            <small>Welcome to</small>
+            <span id="appeal">Welcome </span><span> to</span>
             <h1>Abhinav's <br> Image Gallery</h1>
             <!-- <button type="button"> Take a Tour </button> -->
             <a href="pics.html">Take a tour</a>
         </div>
-        
         <div class="bubbles">
             <img src="Gallery/bubble.png">
             <img src="Gallery/bubble.png">
@@ -28,6 +27,22 @@
             <img src="Gallery/bubble.png">
             <img src="Gallery/bubble.png">
         </div>
-    </div>
+
+
+                        <!-- script -->
+
+    <script>
+        x = 0
+        function air(){
+            if (x==0) {
+            a = prompt("Enter your Name");
+            document.getElementById('appeal').append(a);
+            x = x + 1
+            }
+            else{
+                alert("already Sign in")
+            }
+        }
+    </script>
 </body>
 </html>
